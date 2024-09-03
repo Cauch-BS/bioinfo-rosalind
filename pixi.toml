@@ -1,0 +1,15 @@
+[project]
+authors = ["Chaebeom Sheen <cauchybs@snu.ac.kr>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "bioinfo"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+numpy = ">=2.1.0,<3"
+python = ">=3.12.5,<4"
+jax = ">=0.4.31,<0.5"
+uv = ">=0.4.3,<0.5"
